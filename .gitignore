@@ -1,0 +1,38 @@
+# === Android / Gradle ===
+.gradle/
+build/
+**/build/
+local.properties
+*.hprof
+**/release/
+google-services.json
+
+# === iOS / Xcode ===
+ios/UremontWhoop.xcodeproj/
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+DerivedData/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xccheckout
+*.moved-aside
+Pods/
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# === IDE ===
+.idea/
+*.iml
+.vscode/
+.cursor/
+
+# Локальные git-хуки (не коммитим, не показываем в зеркале ur-whoop)
+.githooks/
+
+# === OS ===
+.DS_Store
+**/.DS_Store
+Thumbs.db

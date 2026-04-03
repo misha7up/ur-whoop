@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">UREMONT WHOOP</string>
+
+    <string name="status_no_connection">Нет соединения</string>
+    <string name="status_connected">Подключено</string>
+    <string name="status_connected_param">Подключено: %1$s</string>
+    <string name="connecting_wifi">Подключение к %1$s:%2$s…</string>
+    <string name="connecting_bt">Подключение к %1$s…</string>
+    <string name="error_wifi_connection">Ошибка Wi‑Fi подключения</string>
+    <string name="error_bluetooth_connection">Ошибка подключения</string>
+    <string name="vehicle_fallback">Автомобиль</string>
+
+    <string name="errors_loading_default">Опрашиваю ЭБУ…</string>
+    <string name="errors_read_main">Читаю постоянные ошибки (Mode 03)…</string>
+    <string name="errors_read_pending">Читаю ожидающие ошибки (Mode 07)…</string>
+    <string name="errors_read_permanent">Читаю постоянные эмиссионные (Mode 0A)…</string>
+    <string name="errors_read_freeze_frame">Читаю снимок параметров (Freeze Frame)…</string>
+    <string name="errors_read_other_ecu">Опрашиваю доп. ЭБУ (CAN, по марке — расширенный список)…</string>
+    <string name="errors_read_finishing">Завершение…</string>
+    <string name="errors_clearing">Сбрасываю ошибки (Mode 04)…</string>
+
+    <string name="toast_errors_cleared">Ошибки сброшены</string>
+    <string name="toast_clear_failed">Не удалось выполнить сброс</string>
+    <string name="toast_browser_failed">Не удалось открыть браузер</string>
+    <string name="toast_pdf_viewer_missing">Нет приложения для просмотра PDF</string>
+
+    <string name="session_history_io_error">Не удалось прочитать историю сессий</string>
+    <string name="session_history_parse_error">Файл истории повреждён или имеет неверный формат</string>
+    <string name="session_history_partial">Часть записей истории пропущена (%1$d)</string>
+</resources>

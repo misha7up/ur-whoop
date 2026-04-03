@@ -1,0 +1,12 @@
+<resources>
+    <!--
+        NoActionBar + тёмный фон — видно пока Compose ещё не отрисовал первый кадр.
+        Цвет #0D0D0F совпадает с BrandBg в MainActivity.kt.
+    -->
+    <style name="Theme.UremontBluetooth" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">#0D0D0F</item>
+        <item name="android:statusBarColor">#0D0D0F</item>
+        <item name="android:navigationBarColor">#0D0D0F</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>

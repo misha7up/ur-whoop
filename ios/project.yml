@@ -1,0 +1,42 @@
+name: UremontWhoop
+options:
+  bundleIdPrefix: com.uremont
+  deploymentTarget:
+    iOS: "16.0"
+  xcodeVersion: "16.0"
+  developmentLanguage: ru
+
+settings:
+  base:
+    SWIFT_VERSION: "5"
+    GENERATE_INFOPLIST_FILE: NO
+
+targets:
+  UremontWhoop:
+    type: application
+    platform: iOS
+    sources:
+      - path: UremontWhoop
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.uremont.UremontWhoop
+        INFOPLIST_FILE: UremontWhoop/Info.plist
+        MARKETING_VERSION: "1.7.0-stable"
+        CURRENT_PROJECT_VERSION: "7"
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        CODE_SIGN_STYLE: Automatic
+        DEVELOPMENT_TEAM: ""
+
+  UremontWhoopTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - path: UremontWhoopTests
+    dependencies:
+      - target: UremontWhoop
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.uremont.UremontWhoopTests
+        GENERATE_INFOPLIST_FILE: YES
+        TEST_HOST: "$(BUILT_PRODUCTS_DIR)/UremontWhoop.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UremontWhoop"
+        BUNDLE_LOADER: "$(TEST_HOST)"

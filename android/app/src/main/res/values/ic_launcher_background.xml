@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Фон launcher-иконки: тёмный фирменный цвет UREMONT (#227DF5 = акцент; #0A1628 = фон) -->
+    <color name="ic_launcher_background">#227DF5</color>
+</resources>
